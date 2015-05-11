@@ -16,6 +16,7 @@ columns
     height: 871px;
     margin-right: 78px;
     max-width: 442px;
+    float: right;
   }
   /************************
 HEADER
@@ -91,6 +92,7 @@ HEADER
   span {
     display: inline-block;
     text-decoration: none;
+    padding-right: 5px;
   }
   .content nav a {
     font-family: 'Open Sans', sans-serif;
@@ -101,5 +103,76 @@ HEADER
     font-weight: 600;
     color: #A6B7C3;
     font-size: .8em;
+  }
+  .content p {
+    font-size: 1.01em;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    right: 0px;
+    top: -195px;
+    line-height: 165%;
+    max-width: 99%;
+  }
+
+
+  blockquote {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6em;
+    color: #0068B5;
+    border-left: 2px solid #ccc;
+    quotes: "\201C""\201D""\2018""\2019";
+    position: relative;
+    bottom: 178px;
+    right: 33px;
+    margin-right: 0px;
+    line-height: 170%;
+    letter-spacing: 0px;
+  }
+  .content nav a {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    top: -209px;
+    right: -115px;
+    text-decoration: underline;
+    font-weight: 400;
+    color: #A6B7C3;
+    font-size: .8em;
+  }
+
+  .content nav {
+    max-width: 22px;
+    max-height: 22px;
+    position: relative;
+    top: -200px;
+  }
+  .smallmurray {
+    display: inline-block;
+    max-width: 22px;
+    max-height: 22px;
+    vertical-align: center;
+
+  }
+  .smallmurray img {
+    max-width: 22px;
+    max-height: 22px;
+    border-radius: 50%;
+  }
+
+  .content .smallmurray p {
+    position: relative;
+    top: -30px;
+  }
+  .smallmurray p {
+    position: absolute;
+    top: -20px;
+    right: -30px;
+    display: inline;
+  }
+  .murrayname {
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
   }
 }
